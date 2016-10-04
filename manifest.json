@@ -1,0 +1,11 @@
+{
+  "name": "LPSomtodayfix",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://somtoday.nl/*"],
+      "css": ["style.css"]
+    }
+  ]
+}
